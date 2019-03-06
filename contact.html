@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Black Agency Enterntainment</title>
+	<title>HALO - Photography Portfolio Template</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="HALO photography portfolio template">
 	<meta name="keywords" content="photography, portfolio, onepage, creative, html">
@@ -35,7 +35,7 @@
 
 	<!-- Header section start -->
 	<header class="header-section sp-pad">
-		<h3 class="site-logo">Black Agency Entertainment</h3>
+		<h3 class="site-logo">HALO</h3>
 		<form class="search-top">
 			<button class="se-btn"><i class="fa fa-search"></i></button>
 			<input type="text" placeholder="Search.....">
@@ -46,36 +46,29 @@
 		<nav class="main-menu">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="#">about us</a></li>
+				<li><a href="about.html">about us</a></li>
 				<li><a href="#">Services</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="mailto:blackagencyent@gmail.com">Contact</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 	<!-- Header section end -->
 
 
-	<!-- Hero section start -->
-	<section class="hero-section">
-		<div class="hero-slider owl-carousel">
-			<div class="hs-item set-bg sp-pad" data-setbg="img/hero-slider/1.jpg">
-				<div class="hs-text">
-					<h2 class="hs-title">Coming soon</h2>
-				</div>
-			</div>
+	<!-- Page top section start -->
+	<div class="page-top-area set-bg" data-setbg="img/headers-bg/4.jpg">
+		<div class="breadcrumb-area">
+			<a href="#">Home</a> / <span>Contact</span>
 		</div>
-	</section>
-	<!-- Hero section end -->
+	</div>
+	<!-- Page top section end -->
+
+	<div class="map-area" id="map-canvas"></div>
 
 
-	
-
-	
-
-
-	<!-- Contact section start -->
+		<!-- Contact section start -->
 	<section class="contact-section set-bg spad" data-setbg="img/contact-bg.jpg">
 		<div class="container-fluid contact-warp">
 			<div class="contact-text">
@@ -85,9 +78,9 @@
 					<p>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada feugiat. Praesent malesuada congue magna at finibus. In hac habi tasse platea dictumst. Curabitur rhoncus auctor eleifend.</p>
 
 					<ul class="con-info">
-						<li><i class="flaticon-phone-call"></i>+57 317 36308305</li>
-						<li><i class="flaticon-envelope"></i>steven@blackagencyent.com </li>
-						<li><i class="flaticon-placeholder"></i>Bogotá, Colombia<br></li>
+						<li><i class="flaticon-phone-call"></i>+45 677 8993000 223</li>
+						<li><i class="flaticon-envelope"></i>office@template.com</li>
+						<li><i class="flaticon-placeholder"></i>Main Str. no 45-46, b3, 56832,<br> Los Angeles, CA</li>
 					</ul>
 				</div>
 			</div>
@@ -121,12 +114,12 @@
 	<footer class="footer-section spad">
 		<div class="container text-center">
 			<h2>Let’s work together!</h2>
-			<p>steven@blackagencyent.com </p>
+			<p>office@template.com</p>
 			<div class="social">
 				<a href="#"><i class="fa fa-pinterest"></i></a>
 				<a href="#"><i class="fa fa-facebook"></i></a>
 				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-dribbble"></i></a> </br>
+				<a href="#"><i class="fa fa-dribbble"></i></a></br>
 
 
 </br><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -135,10 +128,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 			</div>
 		</div>
-
-
 	</footer>
-	<!-- Footer section end -->
+	<!-- Footer section end -->	
 
 
 	<!--====== Javascripts & Jquery ======-->
@@ -148,5 +139,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/main.js"></script>
+
+	<!-- load for map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
+	<script src="js/map.js"></script>
+
 </body>
 </html>
